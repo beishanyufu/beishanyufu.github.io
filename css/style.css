@@ -5,7 +5,7 @@ a {
 
 div.card {
     float: left;
-    width: 400px;
+    width: 360px;
     margin: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -40,4 +40,13 @@ div.container {
 
 #ic .header {
     background-color: rgba(75, 169, 250, 0.849);
+}
+
+#mascot {
+    float: right;
+    width: 56px;
+    margin-right: 110px;
+}
+#mascot img {
+    width: 112px;
 }

@@ -12,6 +12,14 @@
             color: sienna;
         } */
     </style>
+    <script type="text/javascript">
+        function handleImgError() {
+            var img = event.srcElement;
+            img.style = "width:auto;"
+            img.src = "./favicon.ico";
+            // img.onerror = null;
+        }
+    </script>
 </head>
 
 <body>
@@ -72,6 +80,9 @@
                     <p class="more"><a href="https://github.com/beishanyufu/ime-and-cursor#readme"
                             target="_blank">>>more</a></p>
                 </div>
+            </div>
+            <div id="mascot">
+                <img src="./image/repo224.png" alt="🔖" onerror="handleImgError();">
             </div>
             <!-- <div class="sensing-area" id="s-x1"></div>
             <div class="description" id="x1">
