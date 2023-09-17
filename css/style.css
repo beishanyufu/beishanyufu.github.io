@@ -1,0 +1,43 @@
+a {
+    text-decoration: none;
+}
+
+
+div.card {
+    float: left;
+    width: 400px;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.header {
+    /* background-color: #4CAF50; */
+    color: white;
+    padding: 10px;
+    /* font-size: 40px; */
+    text-align: center;
+}
+
+div.container {
+    padding: 10px;
+}
+
+.more {
+    text-align: center;
+}
+
+#yl .header {
+    background-color:rgb(255, 97, 97);
+}
+
+#ll .header {
+    background-color: rgb(253, 250, 119);
+}
+
+#wws .header {
+    background-color:  #68f76d;
+}
+
+#ic .header {
+    background-color: rgba(75, 169, 250, 0.849);
+}
