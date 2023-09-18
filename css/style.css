@@ -29,7 +29,7 @@ div.container {
 
 #yl .header {
     background-color:rgb(255, 97, 97);
-    color: rgb(32, 17, 201);
+    color: rgb(44, 31, 189);
 }
 
 #ll .header {
@@ -46,11 +46,27 @@ div.container {
     color: rgb(32, 17, 201);
 }
 
-#mascot {
-    float: right;
-    width: 56px;
+#aboutme {
+    float:right;
+    margin-top: 50px;
+    margin-left: 30px;
     margin-right: 110px;
 }
+
+#mycount {
+    /* margin-top: 50px;
+    margin-left: 112px; */
+    margin-right: 20px;
+    /* float: right; */
+    display: inline-block;
+
+}
+
+
+#mascot {
+    display: inline-block;
+}
+
 #mascot img {
     width: 112px;
 }
