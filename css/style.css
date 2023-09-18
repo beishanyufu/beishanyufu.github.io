@@ -1,5 +1,6 @@
 a {
     text-decoration: none;
+    color: inherit;
 }
 
 
@@ -28,10 +29,12 @@ div.container {
 
 #yl .header {
     background-color:rgb(255, 97, 97);
+    color: rgb(32, 17, 201);
 }
 
 #ll .header {
     background-color: rgb(253, 250, 119);
+    color: rgb(3, 198, 3);
 }
 
 #wws .header {
@@ -40,6 +43,7 @@ div.container {
 
 #ic .header {
     background-color: rgba(75, 169, 250, 0.849);
+    color: rgb(32, 17, 201);
 }
 
 #mascot {
